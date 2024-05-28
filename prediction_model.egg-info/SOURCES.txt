@@ -11,6 +11,7 @@ prediction_model/training_pipeline.py
 prediction_model.egg-info/PKG-INFO
 prediction_model.egg-info/SOURCES.txt
 prediction_model.egg-info/dependency_links.txt
+prediction_model.egg-info/requires.txt
 prediction_model.egg-info/top_level.txt
 prediction_model/config/__init__.py
 prediction_model/config/config.py

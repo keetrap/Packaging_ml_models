@@ -3,7 +3,7 @@ Name: prediction-model
 Version: 1.0.0
 Summary: Loan Prediction Model
 Home-page: https://github.com/keetrap/Packaging_ml_model
-Author: Nachiketh Murthy
+Author: Prateek Kamboj
 Author-email: parteekkamboj112@gmail.com
 License: MIT
 Classifier: License :: OSI Approved :: MIT License
