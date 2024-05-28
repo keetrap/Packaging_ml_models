@@ -9,12 +9,13 @@ def load_dataset(file_name):
     return _data
 
 def save_pipeline(pipeline_to_save):
+    print("Saving the model")
     save_path = os.path.join(config.SAVE_MODEL_PATH,config.MODEL_NAME)
     joblib.dump(pipeline_to_save, save_path)
     print(f"Model has been saved under the name {config.MODEL_NAME}")
 
 
-def load_pipeline():
+def load_pipeline(pipeline_to_load):
     save_path = os.path.join(config.SAVE_MODEL_PATH,config.MODEL_NAME)
     model_loaded = joblib.load(save_path)
     print(f"Model has been loaded")
